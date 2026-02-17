@@ -1,0 +1,1 @@
+/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/web_server.dir/src/main.c.o CMakeFiles/web_server.dir/src/packet.c.o CMakeFiles/web_server.dir/src/router.c.o CMakeFiles/web_server.dir/src/web_server.c.o -o web_server
