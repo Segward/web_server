@@ -7,6 +7,7 @@ set(OLD_GLOB
   "/Users/segward/Code/web_server/src/main.c"
   "/Users/segward/Code/web_server/src/packet.c"
   "/Users/segward/Code/web_server/src/router.c"
+  "/Users/segward/Code/web_server/src/tls_server.c"
   "/Users/segward/Code/web_server/src/web_server.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

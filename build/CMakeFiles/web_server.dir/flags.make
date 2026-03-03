@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/segward/Code/web_server/include
+C_INCLUDES = -I/Users/segward/Code/web_server/include -isystem /opt/homebrew/Cellar/openssl@3/3.6.1/include
 
 C_FLAGSarm64 =  -arch arm64
 

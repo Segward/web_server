@@ -1,4 +1,4 @@
-#include <web_server.h>
+#include <tls_server.h>
 #include <packet.h>
 #include <router.h>
 
@@ -28,5 +28,5 @@ int main()
   router_add("/page1", page1);
   router_add("/page2", page2);
 
-  return web_server_start(3000);
+  return tls_server_start(8443, "cert.pem", "key.pem");
 }

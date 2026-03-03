@@ -130,6 +130,19 @@ web_server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/web_server.dir/build.make CMakeFiles/web_server.dir/build
 .PHONY : web_server/fast
 
+#=============================================================================
+# Target rules for targets named generate_cert
+
+# Build rule for target.
+generate_cert: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 generate_cert
+.PHONY : generate_cert
+
+# fast build rule for target.
+generate_cert/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_cert.dir/build.make CMakeFiles/generate_cert.dir/build
+.PHONY : generate_cert/fast
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -202,6 +215,30 @@ src/router.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/web_server.dir/build.make CMakeFiles/web_server.dir/src/router.c.s
 .PHONY : src/router.c.s
 
+src/tls_server.o: src/tls_server.c.o
+.PHONY : src/tls_server.o
+
+# target to build an object file
+src/tls_server.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/web_server.dir/build.make CMakeFiles/web_server.dir/src/tls_server.c.o
+.PHONY : src/tls_server.c.o
+
+src/tls_server.i: src/tls_server.c.i
+.PHONY : src/tls_server.i
+
+# target to preprocess a source file
+src/tls_server.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/web_server.dir/build.make CMakeFiles/web_server.dir/src/tls_server.c.i
+.PHONY : src/tls_server.c.i
+
+src/tls_server.s: src/tls_server.c.s
+.PHONY : src/tls_server.s
+
+# target to generate assembly for a file
+src/tls_server.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/web_server.dir/build.make CMakeFiles/web_server.dir/src/tls_server.c.s
+.PHONY : src/tls_server.c.s
+
 src/web_server.o: src/web_server.c.o
 .PHONY : src/web_server.o
 
@@ -234,6 +271,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... generate_cert"
 	@echo "... web_server"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
@@ -244,6 +282,9 @@ help:
 	@echo "... src/router.o"
 	@echo "... src/router.i"
 	@echo "... src/router.s"
+	@echo "... src/tls_server.o"
+	@echo "... src/tls_server.i"
+	@echo "... src/tls_server.s"
 	@echo "... src/web_server.o"
 	@echo "... src/web_server.i"
 	@echo "... src/web_server.s"

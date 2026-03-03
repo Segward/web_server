@@ -1,3 +1,4 @@
 /Users/segward/Code/web_server/build/CMakeFiles/web_server.dir
+/Users/segward/Code/web_server/build/CMakeFiles/generate_cert.dir
 /Users/segward/Code/web_server/build/CMakeFiles/edit_cache.dir
 /Users/segward/Code/web_server/build/CMakeFiles/rebuild_cache.dir

@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/segward/Code/web_server/src/main.c" "CMakeFiles/web_server.dir/src/main.c.o" "gcc" "CMakeFiles/web_server.dir/src/main.c.o.d"
   "/Users/segward/Code/web_server/src/packet.c" "CMakeFiles/web_server.dir/src/packet.c.o" "gcc" "CMakeFiles/web_server.dir/src/packet.c.o.d"
   "/Users/segward/Code/web_server/src/router.c" "CMakeFiles/web_server.dir/src/router.c.o" "gcc" "CMakeFiles/web_server.dir/src/router.c.o.d"
+  "/Users/segward/Code/web_server/src/tls_server.c" "CMakeFiles/web_server.dir/src/tls_server.c.o" "gcc" "CMakeFiles/web_server.dir/src/tls_server.c.o.d"
   "/Users/segward/Code/web_server/src/web_server.c" "CMakeFiles/web_server.dir/src/web_server.c.o" "gcc" "CMakeFiles/web_server.dir/src/web_server.c.o.d"
   )
 
